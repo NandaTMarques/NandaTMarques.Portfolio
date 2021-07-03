@@ -36,3 +36,424 @@
     transform: rotate(360deg);
   }
 }
+/* Global modifications
+---------------------------------------------------------- */
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+* , *:before , *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fbf1f1;
+  color: #fbf1f1;
+  font-family: Open Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+section {
+  background-color: white;
+  padding: 50px 10px 30px;
+}
+
+/* Header section
+---------------------------------------------------------- */
+
+header {
+  background-color: #837b7b;
+  color: #fbf1f1;
+  box-shadow: 0 1px 10px grey;
+  position: fixed;
+  width: 100%;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.logo {
+  color: #fbf1f1;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  line-height: 25px;
+  padding: 16px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #fbf1f1;
+  padding: 20px 12px;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+}
+
+nav a:hover {
+  color: #464646;
+}
+
+.container a:hover {
+  color: #464646;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-link {
+  color: #837b7b;
+}
+/*tirar anchor*/
+.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
+.bars-menu {
+  padding: 18px;
+  display: none;
+}
+
+.bars-menu img {
+  width: 20px;
+}
+
+/* Hero section
+---------------------------------------------------------- */
+
+.hero {
+  background-image: url('../src/images/workplace-Pale-Pink.jpg');
+  background-position: bottom left;
+  background-size: cover;
+  border-bottom: 4px solid #fbf1f1;
+  display: flex;
+  height: 100vh;
+  text-align: center;
+}
+
+section .container {
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+  padding-top: 40px;
+}
+
+.container-post {
+  align-items: start;
+  display: flex;
+  font-family: 'Special Elite', monospace;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 440px;
+  padding-top: 30px;
+}
+
+.hero p {
+  color: #464646;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 27px;
+  margin-bottom: 40px;
+  text-shadow: rgb(104, 102, 102) 2px 2px 3px;
+}
+
+/* about me section
+---------------------------------------------------------- */
+
+.about-me-container {
+  display: flex;
+  flex-direction: row;
+  color: #464646;
+}
+
+.about-me-card {
+  border-radius: 5px;
+  box-shadow: black 2px 2px 6px;
+  padding: 20px;
+  color: #464646;
+  background-color: #fbf1f1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-me img {
+  border-radius: 5px;
+  color: #464646;
+  padding: 20px;
+  max-width: 350px;
+  max-height: 450px;
+  width: auto;
+  height: auto;
+}
+
+.text-aboutme p {
+  text-align: justify;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.icon-redes img {
+  height: 40px;
+  padding-right: 20px;
+}
+
+.icon-redes {
+  display: flex;
+  justify-content: center;
+
+}
+
+/* Stack section
+---------------------------------------------------------- */
+
+.stack-box {
+  background-color: #fadbdb;
+  height: 550px;
+}
+
+.title-group {
+  margin-bottom: 55px;
+}
+
+.title-group:last-child {
+  margin-bottom: 10px;
+}
+
+.title-group h2 {
+  color: #464646;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title-group p {
+  color: #464646;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10px 30px;
+  width: 100%;
+}
+
+.card {
+  background-color: #fbf1f1;
+  border-radius: 5px;
+  border: 1px solid #464646;
+  flex: 1 1 30%;
+  margin: 0 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: black 2px 2px 6px;
+}
+
+.card img {
+  background-color: #464646;
+  border-radius: 50%;
+  border: 10px solid white;
+  box-shadow: 0 0 0 1px #464646;
+  color: #464646;
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  padding: 10px;
+  width: 35%;
+  text-decoration: none;
+}
+
+.card-row h3 {
+  color: #464646;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 30px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.card-row p {
+  font-size: 14px;
+  line-height: 25px;
+  margin: 10px auto;
+}
+
+/* Projects section
+---------------------------------------------------------- */
+
+.dark-hollow {
+  border: 1px solid black;
+  color: black;
+}
+
+.project-grid {
+  column-gap: 20px;
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: center;
+  row-gap: 30px;
+  text-align: center;
+}
+
+.project-tile {
+  background-color: #fadbdb;
+  border-radius: 5px;
+  box-shadow: black 2px 2px 6px;
+  padding: 20px;
+  padding-right: 20px ;
+}
+
+.project-tile > * {
+  color: #464646;
+  visibility: hidden;
+}
+
+.project-tile:hover > * {
+  visibility: visible;
+}
+
+.project-tile .button {
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+}
+
+.project-tile .hollow-button {
+  font-size: 12px;
+  padding: 5px 15px;
+}
+
+.movie-card {
+  background-image: url('images/MCL4.png');
+  background-position: top center;
+  background-size: cover;
+}
+
+.movie-card:hover {
+  background-image: var(--bg-gradient), url('images/MCL4.png');
+}
+
+.wallet {
+  background-image: url('images/wallet1.png');
+  background-position: top center;
+  background-size: cover;
+}
+
+.wallet:hover {
+  background-image: var(--bg-gradient), url('images/wallet1.png');
+}
+
+.recipes {
+  background-image: url('images/recipes1.png');
+  background-position: top center;
+  background-size: cover;
+}
+
+.recipes:hover {
+  background-image: var(--bg-gradient), url('images/recipes1.png');
+}
+
+.star-wars {
+  background-image: url('images/SW1.png');
+  background-position: top center;
+  background-size: cover;
+}
+
+.star-wars:hover {
+  background-image: var(--bg-gradient), url('images/SW1.png');
+}
+
+.stranger {
+  background-image: url('images/strange1.png');
+  background-position: top center;
+  background-size: cover;
+}
+
+.stranger:hover {
+  background-image: var(--bg-gradient), url('images/strange1.png');
+}
+
+.makeup {
+  background-image: url('images/makeup.png');
+  background-position: top center;
+  background-size: cover;
+}
+
+.makeup:hover {
+  background-image: var(--bg-gradient), url('images/makeup.png');
+}
+
+.button {
+  text-decoration: none;
+  color: #464646;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+/* Footer section
+---------------------------------------------------------- */
+
+.footer-down {
+  background-color: #383838;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.footer-up , .footer-down {
+  padding: 35px 0;
+}
+
+.footer-box {
+  flex: 1 1 30%;
+  margin: 0 10px;
+}
+
+.footer-box a:hover {
+  color: #383838;
+}
+
+.footer-link {
+  border-bottom: 1px solid #d5d5e0;
+  color: #837b7b;
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 6px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  line-height: 25px;
+  margin-top: 10px;
+}
