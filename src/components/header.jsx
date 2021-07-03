@@ -10,7 +10,7 @@ class Header extends Component {
             <a href="#home-anchor">Home</a>
             <a href="#about-me-anchor">Sobre mim</a>
             <a href="#skills-anchor">Skills</a>
-            <a href="#portfolio-anchor">Portfólio</a>
+            <a href="#portfolio-anchor">Projetos</a>
             <a href="https://drive.google.com/file/d/1dvhoMEH9DfuN53rF_EAFKA5BwxcnDRd7/view?usp=sharing">Download CV</a>
             <a href="#contact-anchor">Contatos</a>
           </nav>

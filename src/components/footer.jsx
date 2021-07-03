@@ -8,15 +8,15 @@ class Footer extends Component {
         <div className="container">
           <div className="card-row">
             <div className="footer-box">
-              <h3>Useful links</h3>
-              <a href="https://www.betrybe.com/" className="footer-link">Trybe - The programming school</a>
-              <a href="https://www.mairovergara.com/" className="footer-link">English course Mairo Vergara</a>
-              <a href="https://www.codewars.com/" className="footer-link">Code Wars - Achieve mastery through challenge</a>
-              <a href="https://exercism.io/" className="footer-link">Exercism - Code practice mentorship for everyone</a>
+              <h3>Links Úteis</h3>
+              <a href="https://www.betrybe.com/" className="footer-link">Trybe - Escola de Programação</a>
+              <a href="https://www.mairovergara.com/" className="footer-link">Curso de Inglês Mairo Vergara</a>
+              <a href="https://www.codewars.com/" className="footer-link">Code Wars - Alcance a maestria por meio de desafios</a>
+              <a href="https://exercism.io/" className="footer-link">Exercism - Mentoria prática de código para todos</a>
             </div>
             <div className="footer-box" id="contact">
               <a id="contact-anchor" className="anchor"></a>
-              <h3>Where to find me?</h3>
+              <h3>Onde me encontrar?</h3>
               <div className="footer-link-wrapper">
                 <a href="https://www.instagram.com/fernandateixmarques/" className="footer-link">Instagram</a>
               </div>

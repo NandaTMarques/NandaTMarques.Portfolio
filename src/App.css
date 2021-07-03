@@ -432,6 +432,10 @@ section .container {
   font-size: 16px;
 }
 
+.footer-up {
+  background-color: #fadbdb;
+}
+
 .footer-up , .footer-down {
   padding: 35px 0;
 }
@@ -446,7 +450,7 @@ section .container {
 }
 
 .footer-link {
-  border-bottom: 1px solid #d5d5e0;
+  border-bottom: 1px solid #cabdbd;
   color: #837b7b;
   display: block;
   font-size: 14px;
