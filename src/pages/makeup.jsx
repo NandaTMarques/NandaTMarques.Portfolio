@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../components/header';
+import HeaderPage from '../components/headerPage';
 import Footer from '../components/footer';
 import Projects from '../components/projects';
 import makeup1 from '../images/makeup1.png';
@@ -9,7 +9,7 @@ class MakeupShop extends Component {
   render () {
     return (
       <div>
-        <Header/>
+        <HeaderPage/>
         <div className="container-page">
           <h1>Projeto Makeup Shop</h1>
           <h2>Em construção...</h2>

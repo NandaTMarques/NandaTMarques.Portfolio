@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../components/header';
+import HeaderPage from '../components/headerPage';
 import Footer from '../components/footer';
 import Projects from '../components/projects';
 import stranger1 from '../images/stranger1.png';
@@ -11,7 +11,7 @@ class StrangeThings extends Component {
   render () {
     return (
       <div>
-        <Header/>
+        <HeaderPage/>
         <div className="container-page">
           <h1>Projeto Deploy Stranger Things</h1>
           <p className="page-texts">Nesta aplicação fiz o deploy das APIs e do site. Nele podemos pesquisar o nome do personagem da série "Stranger Things" e sabermos infomrações sobre eles, como nome e origem, ao clicarmos no botão mudar realidade a pesquisa aparecerá com as letras invertidas.</p>

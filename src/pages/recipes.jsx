@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../components/header';
+import HeaderPage from '../components/headerPage';
 import Footer from '../components/footer';
 import Projects from '../components/projects';
 import recipes2 from '../images/recipes2.png';
@@ -16,7 +16,7 @@ class Recipes extends Component {
   render () {
     return (
       <div>
-        <Header/>
+        <HeaderPage/>
         <div className="container-page">
           <h1>Projeto Recipes</h1>
           <p>Foi desenvolvido um app de receitas, utilizando o que há de mais moderno dentro do ecossistema React: Hooks e Context API!</p>

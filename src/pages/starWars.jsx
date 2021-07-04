@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../components/header';
+import HeaderPage from '../components/headerPage';
 import Footer from '../components/footer';
 import Projects from '../components/projects';
 import starWars1 from '../images/SW1.png';
@@ -9,7 +9,7 @@ class StarWars extends Component {
   render () {
     return (
       <div>
-        <Header/>
+        <HeaderPage/>
         <div className="container-page">
           <h1>Projeto Star Wars Planets</h1>
           <p>Desenvolvi uma lista com filtros de planetas do universo de Star Wars usando Context API e Hooks para controlar os estados globais.</p>

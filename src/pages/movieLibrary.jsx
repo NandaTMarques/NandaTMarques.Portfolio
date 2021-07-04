@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../components/header';
+import HeaderPage from '../components/headerPage';
 import Footer from '../components/footer';
 import Projects from '../components/projects';
 import MCL1 from '../images/MCL1.png';
@@ -12,7 +12,7 @@ class MovieCardLibrary extends Component {
   render () {
     return (
       <div>
-        <Header/>
+        <HeaderPage/>
         <div className="container-page">
           <h1>Projeto Movie Card Library</h1>
           <p>Um CRUD com cartões de filmes. Abaixo temos as imagens de como fica a aplicação na tela do computador e em mobile.</p>

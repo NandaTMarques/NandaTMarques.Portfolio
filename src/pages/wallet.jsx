@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../components/header';
+import HeaderPage from '../components/headerPage';
 import Footer from '../components/footer';
 import Projects from '../components/projects';
 import wallet1 from '../images/wallet1.png';
@@ -9,7 +9,7 @@ class Wallet extends Component {
   render () {
     return (
       <div>
-        <Header/>
+        <HeaderPage/>
         <div className="container-page">
           <h1>Projeto Wallet</h1>
           <p>Uma carteira de controle de gastos com conversor de moedas.</p>
