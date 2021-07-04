@@ -2,40 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 /* Global modifications
 ---------------------------------------------------------- */
 
@@ -73,7 +39,7 @@ header {
   background-color: #837b7b;
   color: #fbf1f1;
   box-shadow: 0 1px 10px grey;
-  position: fixed;
+  height: 65px;
   width: 100%;
 }
 
@@ -119,7 +85,7 @@ nav a:hover {
 .current-link {
   color: #837b7b;
 }
-/*tirar anchor*/
+
 .anchor {
   display: block;
   position: relative;
@@ -162,8 +128,7 @@ section .container {
   font-family: 'Special Elite', monospace;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 440px;
-  padding-top: 30px;
+  max-width: 480px;
 }
 
 .hero p {
@@ -393,23 +358,23 @@ section .container {
 }
 
 .stranger {
-  background-image: url('images/strange1.png');
+  background-image: url('images/stranger1.png');
   background-position: top center;
   background-size: cover;
 }
 
 .stranger:hover {
-  background-image: var(--bg-gradient), url('images/strange1.png');
+  background-image: var(--bg-gradient), url('images/stranger1.png');
 }
 
 .makeup {
-  background-image: url('images/makeup.png');
+  background-image: url('images/makeup1.png');
   background-position: top center;
   background-size: cover;
 }
 
 .makeup:hover {
-  background-image: var(--bg-gradient), url('images/makeup.png');
+  background-image: var(--bg-gradient), url('images/makeup1.png');
 }
 
 .button {
@@ -460,4 +425,57 @@ section .container {
   text-decoration: none;
   line-height: 25px;
   margin-top: 10px;
+}
+
+.container-page{
+  color: #464646;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.container-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-page {
+  height: 350px;
+  width: 520px;
+  border: 1px solid rgb(104, 102, 102);
+  border-radius: 5px;
+  box-shadow: black 2px 2px 6px;
+  margin: 20px;
+}
+
+.page-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.page-texts {
+  width: 1100px;
+}
+
+.container-images-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-page-mobile {
+  height: 480px;
+  width: 320px;
+  border: 1px solid rgb(104, 102, 102);
+  border-radius: 5px;
+  box-shadow: black 2px 2px 6px;
+  margin: 20px;
 }

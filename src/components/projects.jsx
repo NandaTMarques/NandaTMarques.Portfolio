@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Projects extends Component {
   render () {
@@ -16,7 +17,7 @@ class Projects extends Component {
               <h3>Projeto Movie Card Library CRUD</h3>
               <p>Um CRUD de cartões de filmes em React. </p>
               <div>
-                <a href="to-do-list/index.html" className="button">Visualizar</a>
+                <Link to="/movie-card" className="button">Visualizar</Link>
                 <a href="https://github.com/NandaTMarques/projeto-movie-card-library-crud"
                   className="button">Repositório</a>
               </div>
@@ -25,7 +26,7 @@ class Projects extends Component {
               <h3>Projeto Wallet</h3>
               <p>Uma carteira de controle de gastos com conversor de moedas. </p>
               <div>
-                <a href="to-do-list/index.html" className="button">Visualizar</a>
+                <Link to="/wallet" className="button">Visualizar</Link>
                 <a href="https://github.com/NandaTMarques/Wallet"
                   className="button">Repositório</a>
               </div>
@@ -34,7 +35,7 @@ class Projects extends Component {
               <h3>Projeto Recipes</h3>
               <p>Foi desenvolvido um app de receitas, utilizando o que há de mais moderno dentro do ecossistema React: Hooks e Context API! </p>
               <div>
-                <a href="to-do-list/index.html" className="button">Visualizar</a>
+                <Link to="/recipes" className="button">Visualizar</Link>
                 <a href="https://github.com/NandaTMarques/Project-Recipes-App"
                   className="button">Repositório</a>
               </div>
@@ -43,7 +44,7 @@ class Projects extends Component {
               <h3>Projeto Star Wars</h3>
               <p>Uma lista com filtros de planetas do universo de Star Wars usando Context API e Hooks para controlar os estados globais. </p>
               <div>
-                <a href="to-do-list/index.html" className="button">Visualizar</a>
+                <Link to="/star-wars" className="button">Visualizar</Link>
                 <a href="https://github.com/NandaTMarques/Project-Starwars-planets-search"
                   className="button">Repositório</a>
               </div>
@@ -52,7 +53,7 @@ class Projects extends Component {
               <h3>Projeto Stranger Things Deploy</h3>
               <p>Fiz o deploy da API e do front-end no Heroku aproveitando recursos de um process manager. </p>
               <div>
-                <a href="http://nandatmarques-pd.herokuapp.com/" className="button">Visualizar</a>
+                <Link to="/stranger-things" className="button">Visualizar</Link>
                 <a href="http://nandatmarques-bd.herokuapp.com/"
                   className="button">API invertida</a>
               </div>
@@ -61,7 +62,7 @@ class Projects extends Component {
               <h3>Projeto Makeup Shop</h3>
               <p>E-commerce de maquiagens usando a API do Mercado Livre. Ainda está em construção...</p>
               <div>
-                <a href="to-do-list/index.html" className="button">Visualizar</a>
+                <Link to="/makeup-shop" className="button">Visualizar</Link>
                 <a href="https://github.com/NandaTMarques/Project-MakeupShop"
                   className="button">Repositório</a>
               </div>

@@ -1,21 +1,12 @@
-import Header from '../src/components/header';
-import Post from '../src/components/post';
-import AboutMe from '../src/components/aboutMe';
-import Skills from '../src/components/skills';
-import Footer from '../src/components/footer';
-import Projects from '../src/components/projects';
+import Routes from '../src/Routes';
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Post/>
-      <AboutMe/>
-      <Skills/>
-      <Projects/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <Routes/>
+    </BrowserRouter>
   );
 }
 
