@@ -19,7 +19,7 @@ class Recipes extends Component {
         <HeaderPage/>
         <div className="container-page">
           <h1>Projeto Recipes</h1>
-          <p>Esse foi um projeto desenvolvido em equipe. Desenvolvemos um app de receitas, utilizando o que há de mais moderno dentro do ecossistema React: Hooks e Context API!</p>
+          <p className="page-texts">Esse foi um projeto desenvolvido em equipe. Desenvolvemos um app de receitas, utilizando o que há de mais moderno dentro do ecossistema React: Hooks e Context API!</p>
           <p>Nela é possível ver, buscar, filtrar, favoritar e acompanhar o processo de preparação de receitas e drinks!</p>
           <p>A base de dados serão 2 APIs distintas, uma para comidas e outra para bebidas.</p>
           <p>O layout tem como foco dispositivos móveis, então todos os protótipos vão estar desenvolvidos em telas menores.</p>
