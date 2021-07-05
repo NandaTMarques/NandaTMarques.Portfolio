@@ -6,7 +6,7 @@ class HeaderPage extends Component {
     return (
       <header id="navbar">
         <div className="container">
-          <a className="logo" href="#about-me-anchor">Fernanda Marques</a>
+          <Link to="/" className="logo">Fernanda Marques</Link>
           <nav className="nav-container">
             <Link to="/" className="">Home</Link>
             <a href="#portfolio-anchor">Projetos</a>

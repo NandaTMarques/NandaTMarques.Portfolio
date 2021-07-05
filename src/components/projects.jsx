@@ -56,6 +56,8 @@ class Projects extends Component {
                 <Link to="/stranger-things" className="button">Visualizar</Link>
                 <a href="http://nandatmarques-bd.herokuapp.com/"
                   className="button">API invertida</a>
+                <a href="http://nandatmarques-pd.herokuapp.com/"
+                  className="button">Site</a>
               </div>
             </div>
             <div className="project-tile makeup">
