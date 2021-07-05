@@ -11,7 +11,7 @@ class AboutMe extends Component {
         <a id="about-me-anchor" className="anchor"></a>
         <div className="container">
           <div className="title-group">
-            <h2>About Me</h2>
+            <h2>Sobre mim</h2>
           </div>
           <div className="card-row about-me-card">
             <div className="about-me-container">
