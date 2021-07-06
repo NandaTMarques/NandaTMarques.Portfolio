@@ -10,7 +10,7 @@ class Projects extends Component {
             <a id="portfolio-anchor" className="anchor"></a>
             <h2>Projetos</h2>
             <p>Esses são os principais projetos que desenvolvi até o momento. Mas você pode encontrar muito mais no <a
-                href="https://github.com/NandaTMarques" id="profile-link" className="button">meu GitHub</a>!</p>
+                href="https://github.com/NandaTMarques" id="profile-link" className="button-meu-github">meu GitHub</a>!</p>
           </div>
           <div className="project-grid">
             <div className="project-tile movie-card">
@@ -54,8 +54,7 @@ class Projects extends Component {
               <p>Fiz o deploy da API e do front-end no Heroku aproveitando recursos de um process manager. </p>
               <div>
                 <Link to="/stranger-things" className="button">Visualizar</Link>
-                <a href="http://nandatmarques-bd.herokuapp.com/"
-                  className="button">API invertida</a>
+              
                 <a href="http://nandatmarques-pd.herokuapp.com/"
                   className="button">Site</a>
               </div>

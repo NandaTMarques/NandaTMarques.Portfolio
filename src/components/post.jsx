@@ -6,10 +6,8 @@ class Post extends Component {
     return (
       <section id="welcome-section" className="hero">
         <div className="container-post">
-          <Typing speed={70}>
-            <p>Olá, meu nome é Fernanda, sou desenvolvedora front-end,
-              eu amo aprender coisas novas e resolver problemas.
-              Estou sempre a procura de algo que me desafie.
+          <Typing speed={60}>
+            <p>Olá, sou a Fernanda, desenvolvedora front-end, eu amo aprender coisas novas e vivo em busca de desafios.
             </p>
           </Typing>
         </div>

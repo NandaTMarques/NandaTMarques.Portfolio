@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class HeaderPage extends Component {
   render () {
     return (
-      <header id="navbar">
+      <header id="nav-bar">
         <div className="container">
           <Link to="/" className="logo">Fernanda Marques</Link>
           <nav className="nav-container">

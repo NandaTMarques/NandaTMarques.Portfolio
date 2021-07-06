@@ -20,6 +20,7 @@ class Skills extends Component {
               <h3>TDD/JEST</h3>
               <h3>Bootstrap e Bulma</h3>
               <h3>Git / GitHub</h3>
+              <h3>Princípios CodeClean</h3>
             </div>
             <div className="card">
               <h3>Node JS</h3>
