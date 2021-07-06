@@ -380,14 +380,6 @@ section .container {
 
 /* Footer section---------------------------------------------- */
 
-.footer-down {
-  background-color: #383838;
-  color: white;
-  text-align: center;
-  font-style: italic;
-  font-size: 14px;
-}
-
 .footer-up {
   background-color: #fadbdb;
 }
@@ -417,6 +409,17 @@ section .container {
   text-decoration: none;
   line-height: 25px;
   margin-top: 10px;
+}
+
+.footer-down {
+  background-color: #383838;
+}
+
+.footer-down p{
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
 }
 
 /* Pages Projects---------------------------------------------- */
