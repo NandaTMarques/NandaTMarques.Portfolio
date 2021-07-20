@@ -36,19 +36,23 @@ section {
 header {
   background-color: #837b7b;
   color: #fbf1f1;
-  box-shadow: 0 1px 10px grey;
   height: 65px;
   width: 100%;
+  padding: 16px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
-
 .container {
   align-items: center;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 940px;
-  font-size: 15px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .logo {
@@ -56,14 +60,14 @@ header {
   font-size: 25px;
   font-weight: 600;
   letter-spacing: 1px;
-  padding: 16px 0;
+  /*padding: 16px 0;*/
   text-decoration: none;
   text-transform: uppercase;
 }
 
 nav a {
   color: #fbf1f1;
-  padding: 20px 12px;
+  /*padding: 20px 12px;*/
   text-decoration: none;
   transition: all 300ms ease-in-out;
 }
@@ -92,18 +96,7 @@ nav a:hover {
 .anchor {
   display: block;
   position: relative;
-  top: -100px;
   visibility: hidden;
-}
-
-.bars-menu {
-  padding: 18px;
-  display: none;
-}
-
-.nav-bar {
-  display: flex;
-  justify-content: start;
 }
 
 /* Hero section ----------------------------------------------- */
@@ -154,7 +147,7 @@ section .container {
 
 .about-me-card {
   border-radius: 5px;
-  box-shadow: black 2px 2px 6px;
+  box-shadow: rgba(0, 0, 0, 0.322) 2px 2px 6px;
   padding: 20px;
   color: #464646;
   background-color: #fbf1f1;
@@ -235,12 +228,11 @@ section .container {
 .card {
   background-color: #fbf1f1;
   border-radius: 5px;
-  border: 1px solid #464646;
   flex: 1 1 30%;
   margin: 0 10px;
   padding: 15px;
   text-align: start;
-  box-shadow: black 2px 2px 6px;
+  box-shadow: rgba(0, 0, 0, 0.322) 2px 2px 6px;
 }
 
 .card-row h3 {
@@ -260,12 +252,6 @@ section .container {
 }
 
 /* Projects section---------------------------------------------- */
-
-.dark-hollow {
-  border: 1px solid black;
-  color: black;
-}
-
 .project-grid {
   column-gap: 20px;
   display: grid;
@@ -279,7 +265,7 @@ section .container {
 .project-tile {
   background-color: #fadbdb;
   border-radius: 5px;
-  box-shadow: black 2px 2px 6px;
+  box-shadow: rgba(0, 0, 0, 0.322) 2px 2px 6px;
   padding: 20px;
   padding-right: 20px ;
 }
@@ -330,7 +316,7 @@ section .container {
 }
 
 .recipes {
-  background-image: url('images/recipes1.png');
+  background-image: url('images/recipesLogin.png');
   background-position: top center;
   background-size: cover;
 }
@@ -422,6 +408,102 @@ section .container {
   font-size: 14px;
 }
 
+
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    flex-direction: column;
+    height: 300px;
+  }
+
+  .logo {
+    color: #fbf1f1;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 25px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  nav a {
+    color: #fbf1f1;
+    text-decoration: none;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+  }
+  
+  .nav-container a{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: left;
+  }
+
+  .hero {
+    background-image: url('../src/images/workplace-Pale-Pink-media.png');
+  }
+
+  .container-post {
+    margin: 0 auto;
+  }
+  
+  .hero p {
+    color: #464646;
+    font-size: 24px;
+  }
+
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+  }
+    
+  .card-img-me img {
+    padding: 10px;
+    max-width: 250px;
+    max-height: 350px;
+  }
+    
+  .icon-redes img {
+    height: 30px;
+    padding-right: 20px;
+  }
+
+  .stack-box {
+    height: 100%;
+  }
+
+  .card-row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0 10px 30px;
+    width: 100%;
+  }
+
+  .card {
+    flex: 1 1 30%;
+    margin: 10px 10px;
+    padding: 15px;
+  }
+
+  .project-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-box {
+    margin: 15px 10px;
+  }
+} 
 /* Pages Projects---------------------------------------------- */
 
 .container-page{
@@ -450,7 +532,7 @@ section .container {
   width: 520px;
   border: 1px solid rgb(104, 102, 102);
   border-radius: 5px;
-  box-shadow: black 2px 2px 6px;
+  box-shadow: rgba(0, 0, 0, 0.322) 2px 2px 6px;
   margin: 20px;
 }
 
@@ -479,6 +561,6 @@ section .container {
   width: 320px;
   border: 1px solid rgb(104, 102, 102);
   border-radius: 5px;
-  box-shadow: black 2px 2px 6px;
+  box-shadow: rgba(0, 0, 0, 0.322) 2px 2px 6px;
   margin: 20px;
 }

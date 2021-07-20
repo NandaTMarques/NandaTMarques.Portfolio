@@ -5,7 +5,7 @@ class Projects extends Component {
   render () {
     return (
       <section id="projects">
-        <div className="container">
+        <div className="container-projects">
           <div className="title-group">
             <a id="portfolio-anchor" className="anchor"></a>
             <h2>Projetos</h2>
