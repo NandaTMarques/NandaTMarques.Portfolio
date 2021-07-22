@@ -60,14 +60,12 @@ header {
   font-size: 25px;
   font-weight: 600;
   letter-spacing: 1px;
-  /*padding: 16px 0;*/
   text-decoration: none;
   text-transform: uppercase;
 }
 
 nav a {
   color: #fbf1f1;
-  /*padding: 20px 12px;*/
   text-decoration: none;
   transition: all 300ms ease-in-out;
 }
@@ -408,6 +406,66 @@ section .container {
   font-size: 14px;
 }
 
+/* Pages Projects---------------------------------------------- */
+
+.container-page{
+  color: #464646;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.container-page h1, p {
+  text-align: start;
+}
+
+.container-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-page {
+  height: 350px;
+  width: 520px;
+  border: 1px solid rgb(104, 102, 102);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.322) 2px 2px 6px;
+  margin: 20px;
+}
+
+.page-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 1000px
+}
+
+.page-texts {
+  width: 1000px;
+  text-align: center;
+}
+
+.container-images-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-page-mobile {
+  height: 480px;
+  width: 320px;
+  border: 1px solid rgb(104, 102, 102);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.322) 2px 2px 6px;
+  margin: 20px;
+}
 
 @media (max-width: 768px) {
   header {
@@ -416,7 +474,7 @@ section .container {
     margin: 0 auto;
     letter-spacing: 1px;
     flex-direction: column;
-    height: 300px;
+    height: 200px;
   }
 
   .logo {
@@ -424,7 +482,7 @@ section .container {
     font-size: 23px;
     font-weight: 600;
     letter-spacing: 1px;
-    padding: 25px 0;
+    padding: 20px 0;
     text-decoration: none;
     text-transform: uppercase;
   }
@@ -437,7 +495,8 @@ section .container {
   .nav-container {
     display: flex;
     justify-content: right;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   
   .nav-container a{
@@ -503,64 +562,55 @@ section .container {
   .footer-box {
     margin: 15px 10px;
   }
+
+  .container-page{
+    margin: 20px;
+  }
+  
+  .container-page h1 {
+    text-align: start;
+    font-size: 25px;
+  }
+
+  .container-page p {
+    text-align: start;
+    font-size: 15px;
+  }
+  
+  .container-images {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image-page {
+    height: 200px;
+    width: 300px;
+  }
+  
+  .page-text {
+    margin: auto;
+    width: 300px;
+  }
+
+  .page-text li {
+    font-size: 15px;
+  }
+  
+  .page-texts {
+    width: 300px;
+  }
+  
+  .container-images-mobile {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .image-page-mobile {
+    height: 420px;
+    width: 270px;
+    border: 1px solid rgb(104, 102, 102);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.322) 2px 2px 6px;
+    margin: 20px;
+  }  
 } 
-/* Pages Projects---------------------------------------------- */
-
-.container-page{
-  color: #464646;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 50px;
-}
-
-.container-page h1, p {
-  text-align: start;
-}
-
-.container-images {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.image-page {
-  height: 350px;
-  width: 520px;
-  border: 1px solid rgb(104, 102, 102);
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.322) 2px 2px 6px;
-  margin: 20px;
-}
-
-.page-text {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  width: 1000px
-}
-
-.page-texts {
-  width: 1000px;
-  text-align: center;
-}
-
-.container-images-mobile {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.image-page-mobile {
-  height: 480px;
-  width: 320px;
-  border: 1px solid rgb(104, 102, 102);
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.322) 2px 2px 6px;
-  margin: 20px;
-}

@@ -23,6 +23,8 @@ class Recipes extends Component {
           <p>Nela é possível ver, buscar, filtrar, favoritar e acompanhar o processo de preparação de receitas e drinks!</p>
           <p>A base de dados serão 2 APIs distintas, uma para comidas e outra para bebidas.</p>
           <p>O layout tem como foco dispositivos móveis, então todos os protótipos vão estar desenvolvidos em telas menores.</p>
+          <a href="https://github.com/NandaTMarques/Project-Recipes-App"
+            className="button">Repositório no GitHub</a>
           <div className="container-images-mobile">
             <img src={recipes2} alt="" className="image-page-mobile"/>
             <img src={recipes3} alt="" className="image-page-mobile"/>

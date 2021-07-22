@@ -16,6 +16,8 @@ class MovieCardLibrary extends Component {
         <div className="container-page">
           <h1>Projeto Movie Card Library</h1>
           <p>Um CRUD com cartões de filmes. Abaixo temos as imagens de como fica a aplicação na tela do computador e em mobile.</p>
+          <a href="https://github.com/NandaTMarques/projeto-movie-card-library-crud"
+            className="button">Repositório no GitHub</a>
           <div className="container-images">
             <img src={MCL4} alt="" className="image-page"/>
             <img src={MCL5} alt="" className="image-page"/>

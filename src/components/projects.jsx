@@ -54,7 +54,6 @@ class Projects extends Component {
               <p>Fiz o deploy da API e do front-end no Heroku aproveitando recursos de um process manager. </p>
               <div>
                 <Link to="/stranger-things" className="button">Visualizar</Link>
-              
                 <a href="http://nandatmarques-pd.herokuapp.com/"
                   className="button">Site</a>
               </div>

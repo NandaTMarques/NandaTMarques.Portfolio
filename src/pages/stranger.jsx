@@ -15,6 +15,8 @@ class StrangeThings extends Component {
         <div className="container-page">
           <h1>Projeto Deploy Stranger Things</h1>
           <p className="page-texts">Nesta aplicação fiz o deploy das APIs e do site. Nele podemos pesquisar o nome do personagem da série "Stranger Things" e sabermos infomrações sobre eles, como nome e origem, ao clicarmos no botão mudar realidade a pesquisa aparecerá com as letras invertidas.</p>
+          <a href="http://nandatmarques-pd.herokuapp.com/"
+            className="button">Visite a página</a>
           <div className="container-images">
             <img src={stranger1} alt="" className="image-page"/>
             <img src={stranger2} alt="" className="image-page"/>

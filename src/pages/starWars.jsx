@@ -13,6 +13,8 @@ class StarWars extends Component {
         <div className="container-page">
           <h1>Projeto Star Wars Planets</h1>
           <p>Desenvolvi uma lista com filtros de planetas do universo de Star Wars usando Context API e Hooks para controlar os estados globais.</p>
+          <a href="https://github.com/NandaTMarques/Project-Starwars-planets-search"
+                  className="button">Repositório no GitHub</a>
           <div className="container-images">
             <img src={starWars1} alt="" className="image-page"/>
             <img src={starWars2} alt="" className="image-page"/>

@@ -13,6 +13,8 @@ class Wallet extends Component {
         <div className="container-page">
           <h1>Projeto Wallet</h1>
           <p>Uma carteira de controle de gastos com conversor de moedas.</p>
+          <a href="https://github.com/NandaTMarques/Wallet"
+            className="button">Repositório no GitHub</a>
           <div className="container-images">
             <img src={wallet1} alt="" className="image-page"/>
             <img src={wallet2} alt="" className="image-page"/>

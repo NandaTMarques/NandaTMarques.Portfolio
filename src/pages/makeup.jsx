@@ -14,6 +14,7 @@ class MakeupShop extends Component {
           <h1>Projeto Makeup Shop</h1>
           <h2>Em construção...</h2>
           <p>Uma loja de maquiagens utilizando uma API externa. Aqui temos o esboço de como ficará:</p>
+          <a href="https://github.com/NandaTMarques/Project-MakeupShop" className="button">Repositório no GitHub</a>
           <div className="container-images">
             <img src={makeup1} alt="" className="image-page"/>
             <img src={makeup2} alt="" className="image-page"/>
